@@ -12,4 +12,4 @@ EmployeeUtil should contain the following methods:
 - findEmployeeWithMostIncompleteTaskHours - should take a list of employees and return the employee with the most task hours for projects that are not yet complete.
 - calculateTotalTaskHoursByState - should take a list of employees and a String that represents the name of a state and return the total amount of task hours (complete or incomplete) for employees who live in that state.
 - findStateWithMostIncompleteTaskHours - should take a list of employees and return a string that represents the state name that has the most incomplete tasks hours.
-- markProjectAsComplete - should take an employee id and a project id and mark the project as completed with the current date. Return the project that was marked completed.
+- markProjectAsComplete - should take a list of employees, an employee id, and a project id and mark the project as completed with the current date. Return the project that was marked completed.
